@@ -1,0 +1,13 @@
+<!DOCTYPE>
+<html>
+	<head><title>my flask app</title></head>
+	<body>
+		<ul>
+			<li><img src="{{url_for('static',,filename='maldive.jpg')}"}></li>
+			<# add a variable with jinja template #>
+			{% set username = 'aung-kyaw-khaing' %}
+			<li>Aung Kyaw Khaing</li>
+			<li><a href="https://github.com/{{ username }}">github</a></li>
+		</ul>
+	</body>
+</body>
